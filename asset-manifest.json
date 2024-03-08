@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/gredo/static/css/main.79c413d0.css",
-    "main.js": "/gredo/static/js/main.d45cfa68.js",
+    "main.css": "/gredo/static/css/main.7cc4d42f.css",
+    "main.js": "/gredo/static/js/main.0701cdcf.js",
     "index.html": "/gredo/index.html",
-    "main.79c413d0.css.map": "/gredo/static/css/main.79c413d0.css.map",
-    "main.d45cfa68.js.map": "/gredo/static/js/main.d45cfa68.js.map"
+    "main.7cc4d42f.css.map": "/gredo/static/css/main.7cc4d42f.css.map",
+    "main.0701cdcf.js.map": "/gredo/static/js/main.0701cdcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.79c413d0.css",
-    "static/js/main.d45cfa68.js"
+    "static/css/main.7cc4d42f.css",
+    "static/js/main.0701cdcf.js"
   ]
 }
