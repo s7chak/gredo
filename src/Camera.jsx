@@ -22,6 +22,7 @@ const CameraComponent = ({ theme, changeTheme }) => {
       searchForChemicals();
     }, [detText]);
 
+    const keywords = ["Ingredients", "Includes"];
     const extractTextAfterKeyword = (text) => {
       for (const keyword of keywords) {
           const index = text.toLowerCase().indexOf(keyword.toLowerCase());
@@ -31,7 +32,7 @@ const CameraComponent = ({ theme, changeTheme }) => {
       }
       return text;
   };
-  
+
     const handleScanClick = () => {
       const imageSrc = webcamRef.current.getScreenshot();
       if (imageSrc) {
