@@ -5,6 +5,10 @@ const CameraComponent = ({ theme, changeTheme }) => {
     const [showWebcam, setShowWebcam] = useState(false);
     const webcamRef = useRef(null);
     const [isCameraAccessible, setIsCameraAccessible] = useState(true);
+    const videoConstraints = {
+      facingMode: { exact: "environment" }
+    };
+  
     const handleScanClick = () => {
         setShowWebcam(true);
     };
@@ -39,6 +43,7 @@ const CameraComponent = ({ theme, changeTheme }) => {
                 screenshotFormat="image/jpeg"
                 width={640}
                 height={480}
+                videoConstraints={videoConstraints}
               />
               </>
             ) : (

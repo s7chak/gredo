@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/gredo/static/css/main.040848a2.css",
+    "main.js": "/gredo/static/js/main.68aa17ab.js",
+    "index.html": "/gredo/index.html",
+    "main.040848a2.css.map": "/gredo/static/css/main.040848a2.css.map",
+    "main.68aa17ab.js.map": "/gredo/static/js/main.68aa17ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.040848a2.css",
+    "static/js/main.68aa17ab.js"
+  ]
+}
