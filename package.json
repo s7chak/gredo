@@ -1,7 +1,7 @@
 {
-  "name": "listopia",
+  "name": "gredo",
   "version": "1.0.0",
-  "homepage": "https://s7chak.github.io/listopia",
+  "homepage": "https://s7chak.github.io/gredo",
   "private": false,
   "scripts": {
     "build": "react-scripts build",
@@ -25,30 +25,16 @@
   },
   "dependencies": {
     "font-awesome": "4.7.0",
-    "moment": "2.29.4",
     "react": "18.2.0",
-    "react-datepicker": "4.16.0",
-    "react-datetime": "3.2.0",
-    "react-dom": "18.2.0",
-    "react-icons": "4.8.0",
-    "react-jsx-runtime": "1.0.0",
-    "react-scripts": "^5.0.1",
-    "react-router-dom": "^6.3.0",
-    "framer-motion": "^10.12.16"
+    "react-webcam":"^7.2.0",
+    "react-scripts": "^5.0.1"
   },
   "keywords": [],
   "devDependencies": {
-    "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-animate-on-scroll": "^2.1.5",
     "@types/react-dom": "^17.0.0",
     "@types/react-scroll": "^1.8.3",
-    "gh-pages": "^4.0.0",
-    "prettier": "^2.6.2",
-    "sass": "^1.52.1",
-    "typescript": "^4.7.2",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1",
-    "js-cookie": "3.0.5"
+    "gh-pages": "^4.0.0"
   }
 }

@@ -40,11 +40,11 @@ The lists are maintained using cookies.
 
 2. Select a date and time using the date picker.
 
-3. Click the "+" button to enter a task.
+3. Hit Enter or return to enter a task.
 
-4. Optionally, enter a name for the selected date and click the "Save" button to store it as an anniversary or event.
+4. Optionally, enter a list name for the whole list and save it for future reference.
 
-5. Toggle the theme between light and dark by clicking the "Toggle Theme" button.
+5. View any list from the table of lists, the selected list shows up with preserved checked status.
 
 ## Build
 

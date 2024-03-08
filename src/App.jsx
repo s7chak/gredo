@@ -1,6 +1,6 @@
-import Listopia from "./listopia";
 import React, { createContext, useState } from "react";
 import "./myform.css";
+import CameraComponent from "./Camera";
 
 export const ThemeContext = createContext(null);
 
@@ -11,7 +11,7 @@ export const App = () => {
 	}
 	return (
 		<div className="app" id={theme}>
-      		<Listopia changeTheme={toggleTheme} />
+      		<CameraComponent theme={theme} changeTheme={toggleTheme} />
     	</div>
 	);
 };
