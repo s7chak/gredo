@@ -71,8 +71,8 @@ const CameraComponent = ({ theme, changeTheme }) => {
       <div className={`container ${theme === "dark" ? "dark-theme" : "light-theme"}`}>
         <h1>Gredo</h1>
         {foundChemicals && foundChemicals.length > 0 && (
-          <div className="text-view">
-              <h4>Found Chemicals:</h4>
+          <div className="text-view table-container">
+              <h4>Look at what I found:</h4>
               <table>
                   <thead>
                       <tr>
@@ -104,6 +104,7 @@ const CameraComponent = ({ theme, changeTheme }) => {
             {isCameraAccessible && showWebcam? (
               <>
               <div className="webcam-container">
+              <button className="g-button" onClick={handleScanClick}>Scan</button>
                 <Webcam
                     audio={false}
                     ref={webcamRef}
@@ -114,7 +115,6 @@ const CameraComponent = ({ theme, changeTheme }) => {
                     className="rounded-webcam"
                 />
               </div>
-              <button className="g-button" onClick={handleScanClick}>Scan</button>
               </>
             ) : (
               <button className="g-button" onClick={requestCameraAccess}>Allow Camera Access</button>

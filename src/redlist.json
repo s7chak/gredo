@@ -1,8 +1,4 @@
 {
-    "Water": {
-        "description": "Added to processed meats to stop bacterial growth. Linked to cancer in humans.",
-        "threat": "red"
-    },
     "Sodium nitrate": {
         "description": "Added to processed meats to stop bacterial growth. Linked to cancer in humans.",
         "threat": "red"
@@ -135,6 +131,10 @@
         "description": "A preservative in some packaged foods",
         "threat": "red"
     },
+    "Aluminium": {
+        "description": "A preservative in some packaged foods",
+        "threat": "red"
+    },
     "Formaldehyde": {
         "description": "A known carcinogen.",
         "threat": "red"
@@ -242,5 +242,9 @@
     "Petrolatum": {
         "description": "Can prevent absorption of moisture and cause dry skin.",
         "threat": "orange"
+    },
+    "Water": {
+        "description": "All good for ya.",
+        "threat": "green"
     }
 }
