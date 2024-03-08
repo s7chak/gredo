@@ -46,3 +46,10 @@ body {
   color: var(--accent);
   transition: background-color 1s ease-in-out;
 }
+
+.text-view {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,246 @@
+{
+    "Water": {
+        "description": "Added to processed meats to stop bacterial growth. Linked to cancer in humans.",
+        "threat": "red"
+    },
+    "Sodium nitrate": {
+        "description": "Added to processed meats to stop bacterial growth. Linked to cancer in humans.",
+        "threat": "red"
+    },
+    "Sulfites": {
+        "description": "Used to keep prepared foods fresh. Can cause breathing difficulties in those sensitive to the ingredient.",
+        "threat": "red"
+    },
+    "Azodicarbonamide": {
+        "description": "Used in bagels and buns. Can cause asthma.",
+        "threat": "red"
+    },
+    "Potassium bromate": {
+        "description": "Added to breads to increase volume. Linked to cancer in humans.",
+        "threat": "red"
+    },
+    "bromate": {
+        "description": "Added to breads to increase volume. Linked to cancer in humans.",
+        "threat": "red"
+    },
+    "Propyl gallate": {
+        "description": "Added to fat-containing products. Linked to cancer in humans.",
+        "threat": "red"
+    },
+    "BHA": {
+        "description": "A fat preservative, used in foods to extend shelf life. Linked to cancerous tumor growth.",
+        "threat": "red"
+    },
+    "BHT": {
+        "description": "A fat preservative, used in foods to extend shelf life. Linked to cancerous tumor growth.",
+        "threat": "red"
+    },
+    "Propylene glycol": {
+        "description": "Better known as antifreeze. Thickens dairy products and salad dressing. Deemed ‘generally’ safe by FDA.",
+        "threat": "orange"
+    },
+    "Butane": {
+        "description": "Put in chicken nuggets to keep them tasting fresh. A known carcinogen.",
+        "threat": "red"
+    },
+    "Monosodium glutamate": {
+        "description": "Flavor enhancer that can cause headaches. Linked in animal studies to nerve damage, heart problems and seizures.",
+        "threat": "orange"
+    },
+    "Disodium inosinate": {
+        "description": "In snack foods. Contains MSG.",
+        "threat": "red"
+    },
+    "Disodium guanylate": {
+        "description": "Also used in snack foods, and contains MSG.",
+        "threat": "red"
+    },
+    "Enriched flour": {
+        "description": "Used in many snack foods. A refined starch that is made from toxic ingredients.",
+        "threat": "red"
+    },
+    "Recombinant Bovine Growth Hormone (rBGH)": {
+        "description": "Genetically-engineered version of natural growth hormone in cows. Boosts milk production in cows. Contains high levels of IGF-1, which is thought cause various types of cancer.",
+        "threat": "red"
+    },
+    "rBGH": {
+        "description": "Genetically-engineered version of natural growth hormone in cows. Boosts milk production in cows. Contains high levels of IGF-1, which is thought cause various types of cancer.",
+        "threat": "red"
+    },
+    "Refined vegetable oil": {
+        "description": "Includes soybean oil, corn oil, safflower oil, canola oil, and peanut oil. High in omega-6 fats, which are thought to cause heart disease and cancer.",
+        "threat": "orange"
+    },
+    "Canola": {
+        "description": "Derived from the rapeseed plant. Often used in cooking and food processing. Some concerns about its high omega-6 content.",
+        "threat": "orange"
+    },
+    "Safflower oil": {
+        "description": "Extracted from the seeds of the safflower plant. High in monounsaturated fats, which may have health benefits, but also high in omega-6 fatty acids.",
+        "threat": "orange"
+    },
+    "Peanut oil": {
+        "description": "Extracted from peanuts. Contains monounsaturated fats and vitamin E. May be allergenic for some individuals.",
+        "threat": "green"
+    },
+    "Sodium benzoate": {
+        "description": "Used as a preservative in salad dressing and carbonated beverages. A known carcinogen and may cause damage our DNA.",
+        "threat": "red"
+    },
+    "Brominated vegetable oil": {
+        "description": "Keeps flavor oils in soft drinks suspended. Bromate is a poison and can cause organ damage and birth defects. Not required to be listed on food labels.",
+        "threat": "red"
+    },
+    "Brominated oil": {
+        "description": "Keeps flavor oils in soft drinks suspended. Bromate is a poison and can cause organ damage and birth defects. Not required to be listed on food labels.",
+        "threat": "red"
+    },
+    "Olestra": {
+        "description": "Fat-like substance that is unabsorbed by the body. Used in place of natural fats in some snack foods. Can cause digestive problems, and also not healthy for the heart.",
+        "threat": "red"
+    },
+    "Carrageenan": {
+        "description": "Stabilizer and thickening agent used in many prepared foods. Can cause ulcers and cancer.",
+        "threat": "red"
+    },
+    "Polysorbate 60": {
+        "description": "A thickener that is used in baked goods. Can cause cancer in laboratory animals.",
+        "threat": "red"
+    },
+    "Camauba wax": {
+        "description": "Used in chewing gums and to glaze certain foods. Can cause cancer and tumors.",
+        "threat": "red"
+    },
+    "Magnesium sulphate": {
+        "description": "Used in tofu, and can cause cancer in laboratory animals.",
+        "threat": "red"
+    },
+    "sulphate": {
+        "description": "Used in tofu, and can cause cancer in laboratory animals.",
+        "threat": "orange"
+    },
+    "Chlorine dioxide": {
+        "description": "Used in bleaching flour. Can cause tumors and hyperactivity in children.",
+        "threat": "red"
+    },
+    "Paraben": {
+        "description": "Used to stop mold and yeast forming in foods. Can disrupt hormones in the body, and could be linked to breast cancer.",
+        "threat": "orange"
+    },
+    "Sodium carboxymethyl cellulose": {
+        "description": "Used as a thickener in salad dressings. Could cause cancer in high quantities.",
+        "threat": "red"
+    },
+    "Aluminum": {
+        "description": "A preservative in some packaged foods",
+        "threat": "red"
+    },
+    "Formaldehyde": {
+        "description": "A known carcinogen.",
+        "threat": "red"
+    },
+    "Paraformaldehyde": {
+        "description": "A type of formaldehyde.",
+        "threat": "red"
+    },
+    "Methylene glycol": {
+        "description": "A type of formaldehyde.",
+        "threat": "red"
+    },
+    "Quaternium 15": {
+        "description": "Releases formaldehyde.",
+        "threat": "red"
+    },
+    "Mercury": {
+        "description": "Can damage the kidneys and nervous system.",
+        "threat": "red"
+    },
+    "Dibutyl phthalates": {
+        "description": "Disrupt hormones and damage the reproductive system.",
+        "threat": "red"
+    },
+    "phthalates": {
+        "description": "Disrupt hormones and damage the reproductive system.",
+        "threat": "red"
+    },
+    "diethylhexyl phthalates": {
+        "description": "Disrupt hormones and damage the reproductive system.",
+        "threat": "red"
+    },
+    "Isobutyl and isopropyl parabens": {
+        "description": "Disrupt hormones and harm the reproductive system.",
+        "threat": "red"
+    },
+    "PFAS": {
+        "description": "Linked to cancer.",
+        "threat": "red"
+    },
+    "phenylenediamine": {
+        "description": "M- and o-phenylenediamines irritate and sensitize the skin, damage DNA, and can cause cancer.",
+        "threat": "red"
+    },
+    "Sulfates": {
+        "description": "Used as surfactants and are used for lathering purposes.",
+        "threat": "orange"
+    },
+    "Triclosan": {
+        "description": "An endocrine disruptor and a skin irritant.",
+        "threat": "orange"
+    },
+    "Toluene": {
+        "description": "Can cause birth defects and blood cancer.",
+        "threat": "red"
+    },
+    "Talc": {
+        "description": "Associated with ovarian cancer.",
+        "threat": "red"
+    },
+    "Lead": {
+        "description": "Found in lipsticks and can lead to poisoning.",
+        "threat": "red"
+    },
+    "Oxybenzone": {
+        "description": "An endocrine disruptor and can cause damage to coral reefs.",
+        "threat": "red"
+    },
+    "Octinoxate": {
+        "description": "Another endocrine disruptor and can cause damage to coral reefs.",
+        "threat": "red"
+    },
+    "Homosalate": {
+        "description": "Can disrupt hormone function.",
+        "threat": "red"
+    },
+    "Octocrylene": {
+        "description": "Can produce free radicals that can damage cells and cause mutations.",
+        "threat": "red"
+    },
+    "Avobenzone": {
+        "description": "Considered less harmful than some other sunscreen chemicals, but can still cause skin irritation and allergic reactions in some people.",
+        "threat": "orange"
+    },
+    "Polyethylene Glycol": {
+        "description": "Can cause cancer and respiratory disorders.",
+        "threat": "red"
+    },
+    "PEG": {
+        "description": "Can cause cancer and respiratory disorders.",
+        "threat": "red"
+    },
+    "Diethanolamine": {
+        "description": "A cancer-causing agent and a respiratory toxin.",
+        "threat": "red"
+    },
+    "Alcohol": {
+        "description": "Can leave the skin dry and flaky.",
+        "threat": "orange"
+    },
+    "Hydroquinone": {
+        "description": "Associated with developmental toxins, hair loss, and scalp burns.",
+        "threat": "red"
+    },
+    "Petrolatum": {
+        "description": "Can prevent absorption of moisture and cause dry skin.",
+        "threat": "orange"
+    }
+}
