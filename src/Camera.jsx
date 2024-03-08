@@ -68,18 +68,31 @@ const CameraComponent = ({ theme, changeTheme }) => {
     };
 
     return (
-        <div>
-            <h1>Gredo</h1>
-              {foundChemicals && foundChemicals.length>0 && (
-                <div className="text-view">
-                  <h4>Found Chemicals:</h4>
-                  <ul>
-                    {foundChemicals.map(chemical => (
-                      <li key={chemical}>{chemical}</li>
-                    ))}
-                  </ul>
-                </div>
-              )}
+      <div className={`container ${theme === "dark" ? "dark-theme" : "light-theme"}`}>
+        <h1>Gredo</h1>
+        {foundChemicals && foundChemicals.length > 0 && (
+          <div className="text-view">
+              <h4>Found Chemicals:</h4>
+              <table>
+                  <thead>
+                      <tr>
+                          <th>Chemical</th>
+                          <th>Description</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      {foundChemicals.map(chemical => (
+                          <tr key={chemical}>
+                              <td style={{ color: redlist[chemical].threat }}>
+                                  {chemical}
+                              </td>
+                              <td>{redlist[chemical].description}</td>
+                          </tr>
+                      ))}
+                  </tbody>
+              </table>
+          </div>
+      )}
             <div className="text-view">
               {detText && (
                 <div>
@@ -89,19 +102,22 @@ const CameraComponent = ({ theme, changeTheme }) => {
               )}
             </div>
             {isCameraAccessible && showWebcam? (
-              <><h4>Webcam Feed</h4>
-              <Webcam
-                audio={false}
-                ref={webcamRef}
-                screenshotFormat="image/jpeg"
-                width={640}
-                height={480}
-                videoConstraints={videoConstraints}
-              />
-                <button onClick={handleScanClick}>Scan</button>
+              <>
+              <div className="webcam-container">
+                <Webcam
+                    audio={false}
+                    ref={webcamRef}
+                    screenshotFormat="image/jpeg"
+                    width={640}
+                    height={480}
+                    videoConstraints={videoConstraints}
+                    className="rounded-webcam"
+                />
+              </div>
+              <button className="g-button" onClick={handleScanClick}>Scan</button>
               </>
             ) : (
-              <button onClick={requestCameraAccess}>Allow Camera Access</button>
+              <button className="g-button" onClick={requestCameraAccess}>Allow Camera Access</button>
             )}
         </div>
     );
