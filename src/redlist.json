@@ -1,26 +1,26 @@
 {
     "Sodium nitrate": {
-        "description": "Added to processed meats to stop bacterial growth. Linked to cancer in humans.",
+        "description": "Added to processed meats as a preservative to prevent bacterial growth. However, consumption of sodium nitrate has been linked to an increased risk of cancer in humans, particularly colorectal cancer. The nitrate can react with certain compounds in the meat to form carcinogenic nitrosamines.",
         "threat": "red"
     },
-    "Sulfites": {
-        "description": "Used to keep prepared foods fresh. Can cause breathing difficulties in those sensitive to the ingredient.",
+    "Sulfite": {
+        "description": "Used as a preservative in various foods and beverages to maintain freshness and prevent discoloration. However, sulfites can trigger allergic reactions, particularly in individuals with asthma or sulfite sensitivity. Symptoms may include difficulty breathing, wheezing, and allergic reactions.",
         "threat": "red"
     },
     "Azodicarbonamide": {
-        "description": "Used in bagels and buns. Can cause asthma.",
+        "description": "Often added to baked goods like bread, bagels, and buns as a dough conditioner and bleaching agent. Inhalation of azodicarbonamide can cause respiratory issues, including asthma and breathing difficulties. Additionally, it may contribute to respiratory sensitization and allergic reactions in some individuals.",
         "threat": "red"
     },
     "Potassium bromate": {
-        "description": "Added to breads to increase volume. Linked to cancer in humans.",
+        "description": "Used in the baking industry to strengthen dough and promote gluten development, resulting in higher bread volume and texture. However, potassium bromate has been classified as a possible carcinogen, as studies in animals have shown an increased incidence of tumors, particularly in the kidneys and thyroid glands.",
         "threat": "red"
     },
-    "bromate": {
-        "description": "Added to breads to increase volume. Linked to cancer in humans.",
+    "Bromate": {
+        "description": "Similar to Potassium Bromate, it's used in baking to improve dough strength and texture. However, like potassium bromate, it's associated with carcinogenic effects, particularly linked to an increased risk of cancer in humans.",
         "threat": "red"
     },
     "Propyl gallate": {
-        "description": "Added to fat-containing products. Linked to cancer in humans.",
+        "description": "Often used as an antioxidant to prevent fats and oils from spoiling in various processed foods, cosmetics, and pharmaceuticals. However, studies have suggested a potential link between propyl gallate consumption and an increased risk of certain cancers, particularly in animal models.",
         "threat": "red"
     },
     "BHA": {
@@ -30,6 +30,26 @@
     "BHT": {
         "description": "A fat preservative, used in foods to extend shelf life. Linked to cancerous tumor growth.",
         "threat": "red"
+    },
+    "Aspartame": {
+        "description": "Artificial sweetener found in diet soda and other low-calorie foods. Linked to various health issues including headaches, dizziness, and even cancer in animal studies.",
+        "threat": "orange"
+    },
+    "Sucralose": {
+        "description": "Artificial sweetener commonly found in sugar-free products, diet sodas, and tabletop sweeteners. While generally considered safe, some studies suggest potential adverse effects on gut microbiota, glucose metabolism, and metabolic health.",
+        "threat": "orange"
+    },
+    "Saccharin": {
+        "description": "Artificial sweetener used in diet drinks, tabletop sweeteners, and low-calorie foods. Generally recognized as safe, but some studies have linked it to an increased risk of bladder cancer in laboratory animals. Human relevance is uncertain.",
+        "threat": "orange"
+    },
+    "Acesulfame potassium (Ace-K)": {
+        "description": "Calorie-free artificial sweetener used in a variety of food and beverage products. While approved for use, some research suggests potential adverse effects on metabolic health and insulin sensitivity.",
+        "threat": "orange"
+    },
+    "Neotame": {
+        "description": "Non-caloric artificial sweetener similar to aspartame but sweeter. Used in various food and beverage products. Generally regarded as safe, but concerns exist regarding long-term safety and metabolic effects.",
+        "threat": "orange"
     },
     "Propylene glycol": {
         "description": "Better known as antifreeze. Thickens dairy products and salad dressing. Deemed ‘generally’ safe by FDA.",
@@ -132,47 +152,47 @@
         "threat": "red"
     },
     "Aluminium": {
-        "description": "A preservative in some packaged foods",
+        "description": "Aluminum salts, including aluminum hydroxide and aluminum phosphate, are commonly used as food additives, particularly in processed foods, to improve texture and consistency. However, excessive intake of aluminum has been linked to various health issues, including neurotoxicity, cognitive decline, and an increased risk of Alzheimer's disease.",
         "threat": "red"
     },
     "Formaldehyde": {
-        "description": "A known carcinogen.",
+        "description": "Formaldehyde is a highly toxic and carcinogenic chemical commonly used in the manufacturing of building materials, household products, and some personal care items. Exposure to formaldehyde can occur through inhalation, ingestion, or skin contact. It is known to cause irritation of the eyes, nose, and throat, and long-term exposure has been linked to cancer, particularly nasal and nasopharyngeal cancers.",
         "threat": "red"
     },
     "Paraformaldehyde": {
-        "description": "A type of formaldehyde.",
+        "description": "Paraformaldehyde is a solid polymer of formaldehyde commonly used as a disinfectant and preservative in laboratory settings. It releases formaldehyde gas when heated or dissolved in water. Prolonged exposure to paraformaldehyde can cause irritation of the respiratory tract and skin, and it is classified as a probable human carcinogen.",
         "threat": "red"
     },
     "Methylene glycol": {
-        "description": "A type of formaldehyde.",
+        "description": "Methylene glycol is another name for formaldehyde when it is in a liquid state. It is commonly used in embalming fluids, as a disinfectant, and in various industrial processes. Inhalation or ingestion of methylene glycol can lead to severe health effects, including respiratory irritation, gastrointestinal distress, and organ damage.",
         "threat": "red"
     },
     "Quaternium 15": {
-        "description": "Releases formaldehyde.",
+        "description": "Quaternium-15 is a quaternary ammonium salt commonly used as a preservative in cosmetics, personal care products, and household cleaners. It releases formaldehyde over time as it breaks down, which can lead to skin irritation and allergic reactions. Long-term exposure to quaternium-15 and its formaldehyde byproduct may increase the risk of respiratory issues and cancer.",
         "threat": "red"
     },
     "Mercury": {
-        "description": "Can damage the kidneys and nervous system.",
+        "description": "Mercury is a toxic heavy metal that can accumulate in the environment and food chain, particularly in seafood. Exposure to mercury can damage the kidneys and nervous system, leading to neurological disorders, cognitive impairments, and developmental delays. Pregnant women and young children are especially vulnerable to the harmful effects of mercury.",
         "threat": "red"
     },
     "Dibutyl phthalates": {
-        "description": "Disrupt hormones and damage the reproductive system.",
+        "description": "Dibutyl phthalates (DBP) are a group of chemicals commonly used as plasticizers in a variety of consumer products, including plastics, adhesives, and personal care items such as nail polish and fragrances. Exposure to DBP has been linked to hormonal disruptions, reproductive system abnormalities, and an increased risk of developmental and reproductive disorders.",
         "threat": "red"
     },
     "phthalates": {
-        "description": "Disrupt hormones and damage the reproductive system.",
+        "description": "Phthalates are a group of chemicals commonly used as plasticizers in a wide range of consumer products, including vinyl flooring, toys, food packaging, and personal care items such as shampoos and lotions. They are known to disrupt hormone function and have been associated with adverse effects on the reproductive system, including reduced sperm quality, infertility, and developmental abnormalities in the male reproductive tract.",
         "threat": "red"
     },
     "diethylhexyl phthalates": {
-        "description": "Disrupt hormones and damage the reproductive system.",
+        "description": "Diethylhexyl phthalate (DEHP) is a type of phthalate commonly used as a plasticizer in polyvinyl chloride (PVC) products, including medical devices, building materials, and food packaging. Exposure to DEHP has been linked to hormonal disruptions, reproductive system damage, and adverse developmental outcomes, particularly in infants and young children.",
         "threat": "red"
     },
     "Isobutyl and isopropyl parabens": {
-        "description": "Disrupt hormones and harm the reproductive system.",
+        "description": "Isobutyl and isopropyl parabens are synthetic preservatives commonly used in cosmetics, personal care products, and pharmaceuticals to prevent microbial growth and extend shelf life. They belong to a group of chemicals known as parabens, which are endocrine disruptors and have been linked to hormone-related disorders and reproductive system harm, including disrupted menstrual cycles, reduced sperm quality, and breast cancer.",
         "threat": "red"
     },
     "PFAS": {
-        "description": "Linked to cancer.",
+        "description": "Per- and polyfluoroalkyl substances (PFAS) are a group of man-made chemicals used in a wide range of products, including non-stick cookware, stain-resistant fabrics, food packaging, and firefighting foams. PFAS have been linked to an increased risk of cancer, as well as adverse effects on the liver, thyroid, immune system, and reproductive health. They are persistent in the environment and can accumulate in the body over time.",
         "threat": "red"
     },
     "phenylenediamine": {
@@ -180,67 +200,63 @@
         "threat": "red"
     },
     "Sulfates": {
-        "description": "Used as surfactants and are used for lathering purposes.",
+        "description": "Sulfates are commonly used as surfactants in personal care products such as shampoos, body washes, and toothpaste to create lather and foam. While generally considered safe for most people, sulfates can be irritating to the skin and scalp, particularly for individuals with sensitive skin or conditions like eczema or psoriasis. Prolonged or excessive exposure to sulfates may lead to dryness, irritation, and stripping of natural oils from the skin and hair.",
         "threat": "orange"
     },
     "Triclosan": {
-        "description": "An endocrine disruptor and a skin irritant.",
+        "description": "Triclosan is an antimicrobial agent commonly used in personal care products such as soaps, toothpaste, and hand sanitizers to prevent the growth of bacteria and fungi. However, it is also known as an endocrine disruptor, meaning it can interfere with hormone function in the body. Triclosan has been associated with hormonal imbalances, reproductive system harm, and skin irritation. Due to these concerns, its use has been restricted or banned in some products.",
         "threat": "orange"
     },
     "Toluene": {
-        "description": "Can cause birth defects and blood cancer.",
+        "description": "Toluene is a solvent commonly found in paints, adhesives, and nail polish removers. Prolonged or high-level exposure to toluene vapors can cause a range of health effects, including neurological damage, birth defects, and blood cancer (leukemia). Toluene exposure during pregnancy may pose a risk to fetal development, leading to developmental abnormalities and cognitive deficits in children.",
         "threat": "red"
     },
     "Talc": {
-        "description": "Associated with ovarian cancer.",
+        "description": "Talc is a mineral often used in cosmetics and personal care products such as baby powder, body powders, and makeup. There is evidence suggesting a possible link between talc use in the genital area and an increased risk of ovarian cancer, particularly among women who regularly use talc-based products for feminine hygiene purposes. While the exact mechanism is not fully understood, talc particles may travel to the ovaries and cause inflammation or tumor formation.",
         "threat": "red"
     },
     "Lead": {
-        "description": "Found in lipsticks and can lead to poisoning.",
+        "description": "Lead is a heavy metal that has been historically used in various consumer products, including lipstick, eye makeup, and hair dyes. Exposure to lead can lead to lead poisoning, which can cause serious health problems, particularly in children and pregnant women. In cosmetics, lead may be present as a contaminant due to impurities in raw materials or as an intentional additive to enhance color or texture.",
         "threat": "red"
     },
     "Oxybenzone": {
-        "description": "An endocrine disruptor and can cause damage to coral reefs.",
+        "description": "Oxybenzone is a chemical sunscreen agent commonly used in sunscreens and other personal care products to absorb UV radiation. However, oxybenzone is also known as an endocrine disruptor, meaning it can interfere with hormone function in the body. Additionally, oxybenzone has been implicated in coral bleaching and can contribute to the degradation of coral reef ecosystems when washed off into marine environments.",
         "threat": "red"
     },
     "Octinoxate": {
-        "description": "Another endocrine disruptor and can cause damage to coral reefs.",
+        "description": "Octinoxate, also known as octyl methoxycinnamate, is a chemical sunscreen agent used in sunscreens and other personal care products to absorb UV radiation. Similar to oxybenzone, octinoxate is considered an endocrine disruptor and has been associated with hormonal imbalances and reproductive system harm in animal studies. Additionally, octinoxate has been shown to contribute to coral reef damage and bleaching when released into aquatic environments.",
         "threat": "red"
     },
     "Homosalate": {
-        "description": "Can disrupt hormone function.",
+        "description": "Homosalate is a chemical UV filter commonly found in sunscreens and other personal care products to absorb UV radiation. While considered safe for topical use in sunscreen formulations, homosalate has been shown to disrupt hormone function in animal studies, leading to concerns about its potential impact on human health, particularly with chronic or repeated exposure.",
         "threat": "red"
     },
     "Octocrylene": {
-        "description": "Can produce free radicals that can damage cells and cause mutations.",
+        "description": "Octocrylene is a chemical UV filter commonly used in sunscreens and other personal care products to absorb UV radiation. However, when exposed to sunlight, octocrylene can generate free radicals that have the potential to damage skin cells and cause mutations. While more research is needed to fully understand its long-term effects on human health, some studies suggest a link between octocrylene exposure and skin irritation or allergic reactions.",
         "threat": "red"
     },
     "Avobenzone": {
-        "description": "Considered less harmful than some other sunscreen chemicals, but can still cause skin irritation and allergic reactions in some people.",
+        "description": "Avobenzone is a chemical sunscreen agent commonly used in sunscreens to absorb UV radiation. Compared to some other sunscreen chemicals, avobenzone is considered less harmful, but it can still cause skin irritation and allergic reactions in some individuals, particularly those with sensitive skin. While generally regarded as safe for topical use, prolonged or excessive exposure to avobenzone may lead to skin irritation, redness, or other adverse reactions.",
         "threat": "orange"
     },
     "Polyethylene Glycol": {
-        "description": "Can cause cancer and respiratory disorders.",
-        "threat": "red"
-    },
-    "PEG": {
-        "description": "Can cause cancer and respiratory disorders.",
+        "description": "Polyethylene glycol (PEG) is a petroleum-derived compound commonly used in cosmetics, pharmaceuticals, and personal care products as a thickening agent, solvent, or emulsifier. However, some forms of PEG may be contaminated with ethylene oxide and 1,4-dioxane, which are known carcinogens and respiratory toxins. Exposure to PEG and its derivatives has been associated with skin irritation, allergic reactions, and potential long-term health effects, including cancer and respiratory disorders.",
         "threat": "red"
     },
     "Diethanolamine": {
-        "description": "A cancer-causing agent and a respiratory toxin.",
+        "description": "Diethanolamine (DEA) is a chemical compound used in various personal care and household products, including shampoos, soaps, and detergents, as a foaming agent or emulsifier. DEA and its derivatives can react with other chemicals to form nitrosamines, which are potent carcinogens and respiratory toxins. Prolonged or repeated exposure to DEA has been linked to an increased risk of cancer, particularly bladder cancer, and respiratory disorders.",
         "threat": "red"
     },
     "Alcohol": {
-        "description": "Can leave the skin dry and flaky.",
+        "description": "Alcohol, commonly used in skincare products as ethanol or denatured alcohol, can have a drying effect on the skin, leading to dryness, flakiness, and irritation. While alcohol-based products may help to remove excess oil and impurities from the skin, they can also disrupt the skin's natural moisture barrier and lead to dehydration, especially with frequent or prolonged use. Individuals with dry or sensitive skin may be more prone to adverse reactions from alcohol-based skincare products.",
         "threat": "orange"
     },
     "Hydroquinone": {
-        "description": "Associated with developmental toxins, hair loss, and scalp burns.",
+        "description": "Hydroquinone is a skin-lightening agent commonly used in cosmetic products to treat hyperpigmentation, dark spots, and melasma. However, hydroquinone has been associated with various health concerns, including developmental toxicity, skin irritation, and the potential for hair loss and scalp burns, particularly when used in high concentrations or for prolonged periods. Due to these concerns, the use of hydroquinone in cosmetic products is regulated in many countries.",
         "threat": "red"
     },
     "Petrolatum": {
-        "description": "Can prevent absorption of moisture and cause dry skin.",
+        "description": "Petrolatum, also known as petroleum jelly, is a common ingredient in skincare products such as lotions, balms, and ointments due to its occlusive properties, which help to prevent moisture loss from the skin. While petrolatum can be effective at sealing in moisture and protecting the skin from environmental damage, it can also create a barrier that prevents the skin from breathing and absorbing moisture, leading to dryness and potential irritation. Some individuals may be sensitive to petrolatum or experience clogged pores or acne breakouts from prolonged use.",
         "threat": "orange"
     },
     "Water": {
