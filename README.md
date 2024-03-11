@@ -16,29 +16,33 @@ Gredo is a simple experimental React app designed to help you maintain lists of 
    git clone https://github.com/s7chak/gredo.git
     ```
 
-Navigate to the project directory:
+2. Navigate to the project directory:
 ```bash
-cd gredo```
+cd gredo
+```
 
-Install the dependencies:
+3. Install the dependencies:
 ```bash
-npm install```
-Usage
+npm install
+```
 
+4. Usage
 Start the development server:
 ```bash
-npm start```
+npm start
+```
 
 This will launch the app in your default web browser at http://localhost:3000.
 Select a date and time using the date picker.
 Press Enter or Return to enter a task.
 Optionally, enter a list name for the whole list and save it for future reference.
 View any list from the table of lists. The selected list will appear with its checked status preserved.
-Build
 
+### Build
 To build the app for production, run the following command:
 
 ```bash
-npm run build```
+npm run build
+```
 
 This will create a build folder with the optimized and minified production build of the app.
