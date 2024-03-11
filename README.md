@@ -46,3 +46,5 @@ npm run build
 ```
 
 This will create a build folder with the optimized and minified production build of the app.
+
+To view Live demo of website: https://s7chak.github.io/gredo
